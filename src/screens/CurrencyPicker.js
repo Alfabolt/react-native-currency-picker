@@ -9,7 +9,7 @@ export const CurrencyPicker = (props) => {
 
     const currencies = Object.values(dataCurrency);
 
-    const [currencyName, setCurrencyName] = useState("US Dollar");
+    const [currencyName, setCurrencyName] = useState("Currency");
     const [code, setCode] = useState("USD");
     const [symbol, setSymbol] = useState("$");
     const [symbolNative, setSymbolNative] = useState("$");
